@@ -4,6 +4,8 @@ My family plays the game [Orchard](https://www.habausa.com/orchard-game/). It is
 
 We often win (beat the bird), so I got to wondering what the probabilities were. This code simulates the game. When done over and over again, it turns out the probability of winning (when played optimally) is around __68%__. Maybe that's a smart call because the kids do not like it when we lose.
 
+![Orchard game box](https://github.com/bleonard/orchard/raw/master/gamebox.png)
+
 ## Strategies
 
 When the die is rolled, what comes up is one of the 4 fruits, a basket, or a bird. The board starts with 10 of each of the 4 fruits and no bird cards. When a fruit is rolled, a piece of fruit of that type is removed. Whena basket is rolled, you can select any 2 fruit pieces and remove them. When a bird is rolled, one of 9 bird cards is added. If all of the fruit is removed before the 98th bird card is added, the players win the game.
